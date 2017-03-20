@@ -1,0 +1,26 @@
+# CSHARP.Diagnostics
+This library provides a basic interface to facilitate logging diagnostics to different destinations.
+
+LICENSE: Free to use provided details on fixes and/or extensions emailed to chris.williams@readwatchcreate.com
+
+References:
+
+* If you are using CSHARP.Diagnostics.Sitecore then you will need to reference the Sitecore.Kernel which is NOT part of this repository.
+
+* This project references CSHARP.IO which is included in the bin folder however if you need to debug/extend this dll, you may download the source at: https://github.com/sitecoreguild/CSHARP.IO
+
+Libraries: 
+
+* This project contains 3 C# projects:
+
+	1) CSHARP.Diagnostics 
+		- This project contains the base classes and interfaces for logging diagnostics. 
+		- Additionally it provides support for logging to the file system or console app window.
+	2) CSHARP.Diagnostics.Sitecore 
+		- This project extends CSHARP.Diagnostics to provide support for logging to the Sitecore Log.
+	3) CSHARP.Windows
+		- This project extends CSHARP.Diagnostics to provide support for logging to the Windows Event Log as well as to a TextBox on a Windows Form.
+
+Version History:
+
+	v1.0.0.0 - This is the initial release of the library

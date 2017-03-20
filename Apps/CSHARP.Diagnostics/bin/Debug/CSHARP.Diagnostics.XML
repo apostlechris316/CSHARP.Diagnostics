@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CSHARP.Diagnostics</name>
+    </assembly>
+    <members>
+        <member name="T:CSHARP.Diagnostics.ConsoleLog">
+            <summary>
+            Console Event Log Handler
+            </summary>
+        </member>
+        <member name="P:CSHARP.Diagnostics.ConsoleLog.ConnectionString">
+            <summary>
+            Connection string used to write to log
+            </summary>
+        </member>
+        <member name="P:CSHARP.Diagnostics.ConsoleLog.Parameters">
+            <summary>
+            Additional parameters used to write to log
+            </summary>
+        </member>
+        <member name="P:CSHARP.Diagnostics.ConsoleLog.VerboseLevel">
+            <summary>
+            Levels to log (0 = all, 1 to 10 level of verbosity)
+            </summary>
+        </member>
+        <member name="M:CSHARP.Diagnostics.ConsoleLog.LogEvent(System.Int32,System.String)">
+            <summary>
+            Writes event message to log
+            </summary>
+            <param name="level">1 to 10 increased level of verbosity</param>
+            <param name="message">message to write</param>
+        </member>
+        <member name="M:CSHARP.Diagnostics.ConsoleLog.FlushEventLog">
+            <summary>
+            Flushing event log to console does nothing
+            </summary>
+        </member>
+        <member name="T:CSHARP.Diagnostics.FileSystemLog">
+            <summary>
+            File System Event Log Handler
+            </summary>
+        </member>
+        <member name="P:CSHARP.Diagnostics.FileSystemLog.ConnectionString">
+            <summary>
+            Connection string used to write to log
+            </summary>
+        </member>
+        <member name="P:CSHARP.Diagnostics.FileSystemLog.Parameters">
+            <summary>
+            Additional parameters used to write to log
+            </summary>
+        </member>
+        <member name="P:CSHARP.Diagnostics.FileSystemLog.VerboseLevel">
+            <summary>
+            Levels to log (0 = all, 1 to 10 level of verbosity)
+            </summary>
+        </member>
+        <member name="M:CSHARP.Diagnostics.FileSystemLog.LogEvent(System.Int32,System.String)">
+            <summary>
+            Writes event message to log
+            </summary>
+            <param name="level">1 to 10 increased level of verbosity</param>
+            <param name="message">message to write</param>
+        </member>
+        <member name="M:CSHARP.Diagnostics.FileSystemLog.FlushEventLog">
+            <summary>
+            Flushing event log for file does nothing
+            </summary>
+        </member>
+        <member name="T:CSHARP.Diagnostics.IEventLog">
+            <summary>
+            Interface that supports writing log messages
+            </summary>
+        </member>
+        <member name="P:CSHARP.Diagnostics.IEventLog.ConnectionString">
+            <summary>
+            Connection string used to write to log
+            </summary>
+        </member>
+        <member name="P:CSHARP.Diagnostics.IEventLog.Parameters">
+            <summary>
+            Additional parameters used to write to log
+            </summary>
+        </member>
+        <member name="P:CSHARP.Diagnostics.IEventLog.VerboseLevel">
+            <summary>
+            Gets level of verbosity to log (0 to 10)
+            </summary>
+        </member>
+        <member name="M:CSHARP.Diagnostics.IEventLog.LogEvent(System.Int32,System.String)">
+            <summary>
+            Writes event message to log
+            </summary>
+            <param name="level">0 = all, 1 to 10 increased level of verbosity</param>
+            <param name="message">message to write</param>
+        </member>
+        <member name="M:CSHARP.Diagnostics.IEventLog.FlushEventLog">
+            <summary>
+            Sometimes for optimization log is flushed at intervals
+            </summary>
+        </member>
+    </members>
+</doc>
