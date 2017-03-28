@@ -37,9 +37,10 @@ namespace CSHARP.Diagnostics
         /// </summary>
         /// <param name="level">1 to 10 increased level of verbosity</param>
         /// <param name="message">message to write</param>
+        /// <remarks>V1.0.0.1 Added end of line marker for console error messages if error message does not end in end of line marker.</remarks>
         public void LogEvent(int level, string message)
         {
-            if(VerboseLevel == 0 || level <= VerboseLevel) Console.Write(message);
+            if(VerboseLevel == 0 || level <= VerboseLevel) Console.Write(message + (message.EndsWith("\r\n") == false ? "\r\n" : ""));
         }
 
         /// <summary>
