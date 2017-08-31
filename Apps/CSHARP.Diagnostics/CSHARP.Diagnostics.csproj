@@ -47,6 +47,7 @@
     <Compile Include="ConsoleEventLog.cs" />
     <Compile Include="FileSystemEventLog.cs" />
     <Compile Include="IEventLog.cs" />
+    <Compile Include="MemoryEventLog.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
