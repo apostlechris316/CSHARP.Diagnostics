@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSHARP.Diagnostics", "CSHARP.Diagnostics.csproj", "{C55E575D-AA47-445B-BEB1-38BDC4F89640}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSHARP.Diagnostics", "CSHARP.Diagnostics\CSHARP.Diagnostics.csproj", "{C55E575D-AA47-445B-BEB1-38BDC4F89640}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSHARP.Diagnostics.Sitecore", "..\CSHARP.Diagnostics.Sitecore\CSHARP.Diagnostics.Sitecore.csproj", "{F9C6D538-5307-4C2F-838A-C5C502721FA7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSHARP.Diagnostics.Sitecore", "CSHARP.Diagnostics.Sitecore\CSHARP.Diagnostics.Sitecore.csproj", "{F9C6D538-5307-4C2F-838A-C5C502721FA7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSHARP.Diagnostics.Windows", "..\CSHARP.Diagnostics.Windows\CSHARP.Diagnostics.Windows.csproj", "{517BA968-03B3-49AD-B538-71FF479AD330}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSHARP.Diagnostics.Windows", "CSHARP.Diagnostics.Windows\CSHARP.Diagnostics.Windows.csproj", "{517BA968-03B3-49AD-B538-71FF479AD330}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,5 +30,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E72BC2F2-2DE4-4E56-8BEA-FEE7B7596A68}
 	EndGlobalSection
 EndGlobal

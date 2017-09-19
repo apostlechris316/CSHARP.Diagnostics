@@ -1,12 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Sitecore.Diagnostics;
 
 namespace CSHARP.Diagnostics.Sitecore
 {
+    /// <summary>
+    /// Sitecore Event Log Handler
+    /// </summary>
     public class SitecoreLogEventLog : IEventLog
     {
         /// <summary>
