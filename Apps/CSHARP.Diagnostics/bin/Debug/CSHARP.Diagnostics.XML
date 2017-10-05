@@ -101,5 +101,44 @@
             Sometimes for optimization log is flushed at intervals
             </summary>
         </member>
+        <member name="T:CSHARP.Diagnostics.MemoryEventLog">
+            <summary>
+            Supports storing event log messages in memory
+            </summary>
+            <remarks>NEW in v1.0.0.2</remarks>
+        </member>
+        <member name="P:CSHARP.Diagnostics.MemoryEventLog.ConnectionString">
+            <summary>
+            Connection String not applicable for memory event log
+            </summary>
+        </member>
+        <member name="P:CSHARP.Diagnostics.MemoryEventLog.Parameters">
+            <summary>
+            Parameters not applicable for memory event log
+            </summary>
+        </member>
+        <member name="P:CSHARP.Diagnostics.MemoryEventLog.VerboseLevel">
+            <summary>
+            Verbose used to filter messages written to log
+            </summary>
+        </member>
+        <member name="M:CSHARP.Diagnostics.MemoryEventLog.FlushEventLog">
+            <summary>
+            Flush log not applicable to Memory event log
+            </summary>
+        </member>
+        <member name="M:CSHARP.Diagnostics.MemoryEventLog.ToString">
+            <summary>
+            Returns the current contents of the event log as a string
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CSHARP.Diagnostics.MemoryEventLog.LogEvent(System.Int32,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="level"></param>
+            <param name="message"></param>
+        </member>
     </members>
 </doc>

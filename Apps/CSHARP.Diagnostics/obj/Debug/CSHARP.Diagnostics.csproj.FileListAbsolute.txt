@@ -32,3 +32,10 @@ C:\_rwc\_git\CSHARP.Diagnostics\Apps\CSHARP.Diagnostics\obj\Debug\CSHARP.Diagnos
 C:\_rwc\_git\CSHARP.Diagnostics\Apps\CSHARP.Diagnostics\bin\Debug\CSHARP.IO.pdb
 C:\_rwc\_git\CSHARP.Diagnostics\Apps\CSHARP.Diagnostics\bin\Debug\CSHARP.IO.xml
 C:\_rwc\_git\CSHARP.Diagnostics\Apps\CSHARP.Diagnostics\obj\Debug\CSHARP.Diagnostics.csprojResolveAssemblyReference.cache
+C:\_git\CSHARP.Diagnostics\Apps\CSHARP.Diagnostics\bin\Debug\CSHARP.Diagnostics.XML
+C:\_git\CSHARP.Diagnostics\Apps\CSHARP.Diagnostics\bin\Debug\CSHARP.Diagnostics.dll
+C:\_git\CSHARP.Diagnostics\Apps\CSHARP.Diagnostics\bin\Debug\CSHARP.Diagnostics.pdb
+C:\_git\CSHARP.Diagnostics\Apps\CSHARP.Diagnostics\obj\Debug\CSHARP.Diagnostics.csproj.CoreCompileInputs.cache
+C:\_git\CSHARP.Diagnostics\Apps\CSHARP.Diagnostics\obj\Debug\CSHARP.Diagnostics.dll
+C:\_git\CSHARP.Diagnostics\Apps\CSHARP.Diagnostics\obj\Debug\CSHARP.Diagnostics.pdb
+C:\_git\CSHARP.Diagnostics\Apps\CSHARP.Diagnostics\obj\Debug\CSHARP.Diagnostics.csprojResolveAssemblyReference.cache

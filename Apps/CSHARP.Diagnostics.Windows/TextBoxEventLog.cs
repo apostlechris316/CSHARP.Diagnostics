@@ -74,6 +74,10 @@ namespace CSHARP.Diagnostics.Windows
         public void LogEvent(int level, string message)
         {
             if (VerboseLevel == 0 || level <= VerboseLevel) EventLogTextBox.Text = EventLogTextBox.Text + message;
+
+            // This will pause the thread so it can display the log message.
+            Application.DoEvents();
+            System.Threading.Thread.Sleep(500);
         }
 
     }
