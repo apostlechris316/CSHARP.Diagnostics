@@ -13,7 +13,8 @@ Libraries:
 
 * This project contains 3 C# projects:
 
-	1) CSHARP.Diagnostics 
+	1) CSHARPStandard.Diagnostics 
+		- This is a .NET Standard library so able to be used in .NET Framework, .NET Core and Xamarin.
 		- This project contains the base classes and interfaces for logging diagnostics. 
 		- Additionally it provides support for logging to the file system or console app window.
 	2) CSHARP.Diagnostics.Sitecore 
@@ -21,6 +22,12 @@ Libraries:
 	3) CSHARP.Windows
 		- This project extends CSHARP.Diagnostics to provide support for logging to the Windows Event Log as well as to a TextBox on a Windows Form.
 
+Obsolete libraries: 
+
+	1) CSHARP.Diagnostics
+		- This has now been ported to CSHARPStandard.Diagnostics. If possible use the new library.
+
 Version History:
 
 	v1.0.0.0 - This is the initial release of the library
+	v1.0.0.2 - Ported CSHARP.Diagnostics to a .NET Standard library 
