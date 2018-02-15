@@ -15,7 +15,7 @@ namespace CSHARPStandard.Diagnostics
     /// <summary>
     /// File System Event Log Handler
     /// </summary>
-    public class FileSystemEventLog
+    public class FileSystemEventLog : IEventLog
     {
         /// <summary>
         /// Connection string used to write to log
