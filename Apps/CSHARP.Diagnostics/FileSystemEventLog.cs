@@ -8,7 +8,7 @@
  *          chris.williams@readwatchcreate.com
  ********************************************************************************/
 
-using CSHARP.IO;
+using System.IO;
 
 namespace CSHARP.Diagnostics
 {
@@ -39,7 +39,7 @@ namespace CSHARP.Diagnostics
         /// <param name="message">message to write</param>
         public void LogEvent(int level, string message)
         {
-            if (VerboseLevel == 0 || level <= VerboseLevel) TextFileHelper.WriteContents(ConnectionString,message, false);
+            if (VerboseLevel == 0 || level <= VerboseLevel) File.AppendAllText(ConnectionString, message);
         }
 
         /// <summary>
