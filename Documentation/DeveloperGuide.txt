@@ -31,3 +31,4 @@ Version History:
 
 	v1.0.0.0 - This is the initial release of the library
 	v1.0.0.2 - Ported CSHARP.Diagnostics to a .NET Standard library 
+	v1.0.0.6 - Upgraded to .NET Standard Library 2.0 to support unit tests. First version with basic unit tests.

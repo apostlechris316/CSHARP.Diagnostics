@@ -6,3 +6,5 @@ Date Completed,Version,Library,Feature,Task
 1/8/2018,1.0.0.2,CSHARPStandard.Diagnostics,.NET Standard Library,Convert CSHARP.Diagnostics to .NET Standard Library
 Pending,1.0.0.2,CSHARP.Diagnostics.Sitecore,.NET Standard Library,Convert CSHARP.Diagnostics to .NET Standard Library
 Pending,1.0.0.2,CSHARP.Diagnostics.Windows,.NET Standard Library,Convert CSHARP.Diagnostics to .NET Standard Library
+8/31/2018,1.0.0.6,CSHARPStandard.Diagnostics,.NET Standard Library,Upgraded to .NET Standard Library 2.0 to support unit tests
+8/31/2018,1.0.0.0,CSHARPStandard.Diagnostics.Test,Unit Tests,"Created unit tests for Console, File and Memory Event Log classes"
