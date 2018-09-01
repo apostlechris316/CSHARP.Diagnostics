@@ -45,12 +45,6 @@
     <Compile Include="SitecoreLogEventLog.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\CSHARP.Diagnostics\CSHARP.Diagnostics.csproj">
-      <Project>{c55e575d-aa47-445b-beb1-38bdc4f89640}</Project>
-      <Name>CSHARP.Diagnostics</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

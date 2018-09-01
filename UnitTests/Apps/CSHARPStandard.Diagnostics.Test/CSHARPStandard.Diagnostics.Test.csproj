@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+
+    <Version>1.0.0.0</Version>
+
+    <Authors>Chris Williams</Authors>
+
+    <Company>Read Watch Create</Company>
+
+    <Product>CSHARP Diagnostics</Product>
+
+    <Description>These are the unit tests for the CSHARPStandard.Diagnostics library</Description>
+
+    <Copyright>(c) 2018 Read Watch Create</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.5.0" />
+    <PackageReference Include="MSTest.TestAdapter" Version="1.2.0" />
+    <PackageReference Include="MSTest.TestFramework" Version="1.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Apps\CSHARPStandard.Diagnostics\CSHARPStandard.Diagnostics.csproj" />
+  </ItemGroup>
+
+</Project>

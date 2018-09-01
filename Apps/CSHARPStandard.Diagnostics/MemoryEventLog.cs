@@ -7,10 +7,11 @@
  * LICENSE: Free to use provided details on fixes and/or extensions emailed to 
  *          chris.williams@readwatchcreate.com
  ********************************************************************************/
-using System.Text;
 
 namespace CSHARPStandard.Diagnostics
 {
+    using System.Text;
+
     /// <summary>
     /// Supports storing event log messages in memory
     /// </summary>

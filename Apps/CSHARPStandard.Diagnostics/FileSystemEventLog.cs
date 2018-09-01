@@ -8,10 +8,10 @@
  *          chris.williams@readwatchcreate.com
  ********************************************************************************/
 
-using System.IO;
-
 namespace CSHARPStandard.Diagnostics
 {
+    using System.IO;
+
     /// <summary>
     /// File System Event Log Handler
     /// </summary>

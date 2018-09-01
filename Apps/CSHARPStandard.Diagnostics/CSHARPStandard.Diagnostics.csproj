@@ -2,14 +2,14 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <Version>1.0.0.3</Version>
+    <Version>1.0.0.6</Version>
     <Description>Diagnostic/Status Logging Support</Description>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Copyright>Copyright ©2015-2018 Read Watch Create</Copyright>
     <RepositoryUrl>https://github.com/sitecoreguild/CSHARP.Diagnostics</RepositoryUrl>
     <RepositoryType>GitHub</RepositoryType>
     <PackageTags>Diagnostics, Debugging, Status Logging</PackageTags>
-    <PackageReleaseNotes>This version was a direct port from CSHARP.Diagnostics v1.0.0.2</PackageReleaseNotes>
+    <PackageReleaseNotes>This version supports .net core 2.0 or higher.</PackageReleaseNotes>
     <Authors>Chris Williams</Authors>
     <Company>Read Watch Create</Company>
   </PropertyGroup>

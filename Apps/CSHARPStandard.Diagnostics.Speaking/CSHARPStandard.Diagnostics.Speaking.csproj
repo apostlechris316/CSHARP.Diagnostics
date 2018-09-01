@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>0.0.0.19</Version>
+    <Authors>Chris Williams</Authors>
+    <Company>Read Watch Create</Company>
+    <Product>Diagnostics</Product>
+    <Copyright>(c) 2018 Read Watch Create</Copyright>
+    <PackageReleaseNotes>DO NOT DISTRIBUTE - Temporary for POC.
+Using audio driver that uses powershell to play
+v0.0.0.17 - Only say log messages below 2 as 2 is information only.</PackageReleaseNotes>
+    <AssemblyVersion>0.0.0.19</AssemblyVersion>
+    <FileVersion>0.0.0.19</FileVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CSHARPStandard.TextToSpeech.VoiceRss" Version="0.0.0.4" />
+  </ItemGroup>
+
+</Project>
