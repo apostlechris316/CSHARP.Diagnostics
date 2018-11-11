@@ -1,6 +1,8 @@
 # CSHARP.Diagnostics
 This library provides a basic interface to facilitate logging diagnostics to different destinations.
 
+NOTE: If you are using .NET Core then use the newer library DiagnosticsQuickStart instead.
+
 LICENSE: Free to use provided details on fixes and/or extensions emailed to chris.williams@readwatchcreate.com
 
 References:
